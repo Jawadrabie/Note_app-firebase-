@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1032679004655",
+    "project_id": "waelfirebase-d799b",
+    "storage_bucket": "waelfirebase-d799b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032679004655:android:43cc5b52c520fa6c01fe1a",
+        "android_client_info": {
+          "package_name": "com.example.waelfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT8X5kha5O7GhbeLvDAK7EAD1K2hKjieQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
