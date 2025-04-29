@@ -17,7 +17,7 @@ class _filterState extends State<filter> {
   initData() async {
 
       CollectionReference users = FirebaseFirestore.instance.collection('users');
-      QuerySnapshot user = await users.orderBy("age",).get();
+      QuerySnapshot user = await users.orderBy("name",).get();
       user.docs.forEach((elment) {dataUser.add(elment);},);
     setState(() {});
   }

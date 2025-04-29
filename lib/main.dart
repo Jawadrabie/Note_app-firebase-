@@ -7,6 +7,8 @@ import 'package:waelfirebase/screen/image_Picker/image_Picker.dart';
 import 'package:waelfirebase/screen/login.dart';
 import 'package:waelfirebase/screen/register.dart';
 import 'package:waelfirebase/show.dart';
+import 'package:waelfirebase/testting/Filter.dart';
+import 'package:waelfirebase/testting/test.dart';
 import 'firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
 // Import the generated file
@@ -44,7 +46,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(appBarTheme: AppBarTheme(backgroundColor: Colors.brown)),
-      home: //boot(),
+      home:
           // notification(),
           FirebaseAuth.instance.currentUser == null ? loginPage() : HomePage(),
       routes: {

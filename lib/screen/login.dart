@@ -94,13 +94,7 @@ class _loginPageState extends State<loginPage> {
                             fontSize: 35,
                             fontWeight: FontWeight.w600),
                       ),
-                      SizedBox(
-                        height: 8,
-                      ),
-                      Text(
-                        "Login to continue app",
-                        style: TextStyle(color: Colors.grey),
-                      ),
+
                       SizedBox(
                         height: 10,
                       ),
@@ -188,8 +182,8 @@ class _loginPageState extends State<loginPage> {
                                     "يرجى الضغط على رابط للتاكد من حسابك ثم المتابعة في صفحة تسجيل الدخول");
                               }
                             } on FirebaseAuthException catch (e) {
-                              // Isloading = false;
-                              // setState(() {});
+                              Isloading = false;
+                              setState(() {});
                               String message;
                               if (e.code == 'user-not-found') {
                                 message = 'No user found for that email.';
