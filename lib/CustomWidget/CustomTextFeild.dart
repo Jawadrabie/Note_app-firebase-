@@ -18,7 +18,7 @@ class CustomTextFeild extends StatelessWidget {
       },
       controller: controller,
       decoration: InputDecoration(
-        labelText: hint,
+       // labelText: hint,
         fillColor: Colors.grey[300],
         filled: true,
         contentPadding: EdgeInsets.symmetric(horizontal: 10),
